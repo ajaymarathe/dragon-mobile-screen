@@ -58,14 +58,58 @@ h1,h2,h3,h4,h5,h6{
   background-size: cover !important;
   width:100%;
   background-position: center !important;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
 }
 .comming-soon .first-header{
   color: white;
+   padding-top: 5rem;
   display: flex;
-  
+  width: 100%;
 }
 .comming-soon .second-header{
   color:white;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
+  width: 100%;
 }
 /*end comming soon page*/
+/*buttons page*/
+.buttons{
+    height: 100vh;
+    background-size: cover !important;
+    width: 100%;
+}
+.buttons .btn{
+    margin-bottom:  1rem;
+}
+.btn-icon i{
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn-rounded{
+    border-radius: 1.5rem !important;
+}
+/*end buttons*/
+/*typography page*/
+.typography p{
+    margin-bottom: .2rem;
+    font-size: 14px;
+}
+/*end typography page*/
+/*forms-inputs page*/
+.forms-inputs{
+
+}
+/*end forms-inputs pages*/
+/*nav*/
+.navbar{
+    padding-top: .8rem;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+.navbar .nav-link{
+    color:black;
+}
+/*end navs*/
