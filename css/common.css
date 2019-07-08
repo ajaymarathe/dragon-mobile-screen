@@ -104,12 +104,61 @@ h1,h2,h3,h4,h5,h6{
 /*end forms-inputs pages*/
 /*nav*/
 .navbar{
-    padding-top: .8rem;
-    padding-right: 0;
-    padding-left: 0;
-    padding-bottom: 0;
+    padding: 0;
 }
 .navbar .nav-link{
     color:black;
 }
 /*end navs*/
+/*navigation page*/
+.navigation nav{
+    margin-bottom: 0.5rem;
+}
+/*end navigation page*/
+/*profile page*/
+.profile .card-body .author{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: -100px;
+}
+.profile .author-info{
+    display: flex;
+    justify-content: center;
+}
+.profile .author-info div{
+    margin-right: .5rem;
+    margin-left: .5rem;
+}
+.profile .horizontal-line{
+    display: flex;
+    justify-content: center;
+}
+.profile .author-info p,a{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.profile .photos{
+    width:100%;
+    padding: 1rem;
+}
+.profile .photos a{
+    margin-top: 0;
+}
+.profile .photos img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95px;
+    margin: 3px;
+    height: 80px;
+}
+/*end profile page*/
+/*create-account page */
+.create-account{
+  width:100%;
+  background-color: #29539b;
+  background-image: linear-gradient(315deg, #29539b 0%, #1e3b70 74%);
+}
+
+/*end create-account page*/
